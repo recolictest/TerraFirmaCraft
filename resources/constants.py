@@ -766,7 +766,7 @@ BUCKETABLE_FISH = ('cod', 'pufferfish', 'tropical_fish', 'jellyfish', 'salmon', 
 LAND_PREDATORS = ('polar_bear', 'grizzly_bear', 'black_bear', 'cougar', 'panther', 'lion', 'sabertooth', 'wolf')
 OCEAN_PREDATORS = ('dolphin', 'orca')
 OCEAN_PREY = ('isopod', 'lobster', 'crayfish', 'cod', 'tropical_fish', 'horseshoe_crab')
-LIVESTOCK = ('pig', 'cow', 'goat', 'yak', 'alpaca', 'sheep', 'musk_ox', 'chicken', 'duck', 'quail')
+LIVESTOCK = ('pig', 'cow', 'goat', 'yak', 'alpaca', 'sheep', 'musk_ox', 'chicken', 'duck', 'quail', 'horse', 'mule', 'donkey')
 LAND_PREY = ('rabbit', 'fox', 'boar', 'turtle', 'penguin', 'deer', 'panda')
 
 BLOCK_ENTITIES = ('log_pile', 'burning_log_pile', 'placed_item', 'pit_kiln', 'charcoal_forge', 'quern', 'scraping', 'crucible', 'bellows', 'composter', 'chest', 'trapped_chest', 'barrel', 'loom', 'sluice', 'tool_rack', 'sign', 'lamp', 'berry_bush', 'crop', 'firepit', 'pot', 'grill', 'pile', 'farmland', 'tick_counter', 'nest_box', 'bloomery', 'bloom', 'anvil', 'ingot_pile', 'sheet_pile', 'blast_furnace', 'large_vessel', 'powderkeg')
@@ -977,6 +977,18 @@ DEFAULT_LANG = {
     'subtitles.entity.tfc.rat.hurt': 'Rat squeals',
     'subtitles.entity.tfc.rat.step': 'Rat patters',
     'subtitles.entity.tfc.rooster.cry': 'Rooster calls',
+    'subtitles.entity.tfc.bluegill.ambient': 'Bluegill splashes',
+    'subtitles.entity.tfc.bluegill.flop': 'Bluegill flops',
+    'subtitles.entity.tfc.bluegill.death': 'Bluegill dies',
+    'subtitles.entity.tfc.bluegill.hurt': 'Bluegill hurts',
+    'subtitles.entity.tfc.manatee.ambient': 'Manatee splashes',
+    'subtitles.entity.tfc.manatee.flop': 'Manatee flops',
+    'subtitles.entity.tfc.manatee.death': 'Manatee dies',
+    'subtitles.entity.tfc.manatee.hurt': 'Manatee hurts',
+    'subtitles.entity.tfc.jellyfish.ambient': 'Jellyfish splashes',
+    'subtitles.entity.tfc.jellyfish.flop': 'Jellyfish flops',
+    'subtitles.entity.tfc.jellyfish.death': 'Jellyfish dies',
+    'subtitles.entity.tfc.jellyfish.hurt': 'Jellyfish hurts',
     'subtitles.generic.tfc.dirt_slide': 'Soil landslides',
     'subtitles.generic.tfc.rock_slide_long': 'Rock collapses',
     'subtitles.generic.tfc.rock_slide_long_fake': 'Rock creaks',
